@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # SBEA Website Statistics Program
-
-# In[1]:
-
+# SBEA Website Statistics Program
 
 import pandas as pd
 import os
@@ -16,10 +10,6 @@ from openpyxl.styles import Font, Alignment, Border, Side, numbers
 from openpyxl.utils import get_column_letter
 from datetime import datetime
 from openpyxl.styles import PatternFill
-
-
-# In[2]:
-
 
 # ---- UTILITY ----
 
@@ -250,16 +240,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
